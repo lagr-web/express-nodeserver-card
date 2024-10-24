@@ -1,0 +1,23 @@
+{
+  "name": "node_rest_api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "test express",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon node ."
+  },
+  "author": "lars",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/ssr": "^0.0.10",
+    "@supabase/supabase-js": "^2.38.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
